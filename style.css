@@ -60,7 +60,7 @@
      border: 2px solid #FFD700;
      width: 100%;
      max-width: 720px;
-     margin-bottom: 20px;
+     margin-left: -2px;
      box-shadow: 0 0 100px rgb(255, 215, 0, 0.5);
    }
 
