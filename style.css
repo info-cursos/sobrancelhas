@@ -29,6 +29,7 @@
      color: #fff;
      font-size: 1em;
      margin: 10px 0;
+     padding: 5px;
    }
 
    #msg {
@@ -39,10 +40,11 @@
      color: #fff;
      text-align: center;
      padding: 20px;
+     font-weight: bold;
    }
 
    .beneficios {
-     background: linear-gradient(to top, #000000 40%, #292C2F 80%);
+     background: linear-gradient(to bottom, #000000 40%, #000000 80%);
      padding: 25px 10px;
    }
 
@@ -62,7 +64,7 @@
      max-width: 720px;
      margin-left: -2px;
      margin-bottom: 15px;
-     box-shadow: 10px 10px 100px rgb(255, 215, 0, 0.5)
+     box-shadow: 10px 0 100px rgb(255, 215, 0, 0.5)
    }
 
    .depoimentos {
@@ -89,7 +91,7 @@
      border-radius: 20px;
      text-decoration: none;
      cursor: pointer;
-     box-shadow: 0px 4px 15px rgb(255, 215, 0, 1);
+     box-shadow: 0px 1px 10px rgb(255, 215, 0, 1);
    }
 
    a:hover {
