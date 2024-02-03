@@ -12,7 +12,7 @@
    }
 
    h1 {
-     font-size: 2em;
+     font-size: 2.5em;
      margin: 0;
    }
 
@@ -27,7 +27,7 @@
 
    p {
      color: #fff;
-     font-size: 1em;
+     font-size: 1.4em;
      margin: 10px 0;
      padding: 5px;
    }
@@ -41,6 +41,7 @@
      text-align: center;
      padding: 20px;
      font-weight: bold;
+     max-width: 720px;
    }
 
    .beneficios {
@@ -74,10 +75,13 @@
 
    .chamada-acao {
      background: #292C2F;
-     /* background: linear-gradient(to bottom, #000000 10%, #292C2F 80%);*/
      color: #fff;
      padding: 20px;
      text-align: center;
+   }
+
+   #msgCTA {
+     padding: 20px;
    }
 
    a {
@@ -106,7 +110,7 @@
 
    footer {
      background: linear-gradient(to top, #000000 10%, #292C2F 100%);
-     color: #000;
+     color: #b3b3b3;
      padding: 20px;
      text-align: center;
    }
@@ -116,6 +120,14 @@
      color: #FFD700;
    }
 
-   #rodape p {
+   span {
      color: #b3b3b3;
+   }
+
+   #rodape {
+     padding: 10px;
+   }
+
+   #rodape span{
+    margin: 10px;
    }
